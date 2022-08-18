@@ -12,7 +12,7 @@ function Blog() {
     <div className="container md:container  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
       <div className="box flex flex-col border-solid	border-2 border-[#f4f4f4]">
         <div className="img-holder max-h-[250px]">
-          <img className="img h-full w-full" src={img1} alt="" />
+          <img className="img h-full" src={img1} alt="" />
         </div>
         <div className="desc p-3">
           <h4 className="desc-title text-lg text-black mb-2">Title Name</h4>

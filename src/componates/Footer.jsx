@@ -9,19 +9,19 @@ function Footer() {
 
   return (
     <div id="footer" className="footer relative">
-      <div className="container relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center py-7 gap-5">
-        <div className="col flex flex-col items-start ">
+      <div className="container relative flex flex-col md:flex-row items-center  flex-wrap gap-3	 py-7 ">
+        <div className="col flex flex-col items-start sm:w-full w-1/4	flex-1">
           <a href='' className='logo text-lg'>Elbrus</a>
         </div>
-        <div className="col flex flex-col items-start ">
+        <div className="col flex flex-col items-start sm:w-full w-1/4 flex-1">
           <a href='' className={linksStyle}>about componay</a>
           <a href='' className={linksStyle}>directions</a>
         </div>
-        <div className="col flex flex-col items-start">
+        <div className="col flex flex-col items-start sm:w-full w-1/4	flex-1">
           <a href='' className={linksStyle}>karanor</a>
           <a href='' className={linksStyle}>parquet</a>
         </div>
-        <div className="col flex flex-col items-start md:items-end gap-2">
+        <div className="col flex flex-col items-start lg:items-end sm:w-full w-1/4	flex-1 gap-2">
           <a href=''  className='border border-solid border-slate-300 px-[25px] py-[7px] text-white capitalize'>request a call</a>
           <span className='text-white'>+7(495) 764-26-14</span>
           <div className="icons flex">
