@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --color-orange: #f48c06;
+  --color-black: #3e3e3e;
+  --color-silver: #f4f4f4;
+  --color-white: #fff;
+}
+
+
+@layer components {
+  .container {
+    @apply px-[30px] mx-[auto];
+  }
+  .active {
+    @apply border-solid	 border-b border-b-orange pb-2 px-3
+  }
+}
+ 
+
+@layer utilities {
+
+}
+  .swiper-button-prev,.swiper-button-next {
+    color: #f48c06 !important;
+  } 
+   .swiper-pagination {
+    margin-top: 100px !important
+  } 
+   .swiper-pagination-bullet-active {
+    background-color: #f48c06 !important;
+  } 
+   .swiper  {
+    padding: 30px 0;
+  }
+  iframe {
+    margin: 0 !important;
+  }

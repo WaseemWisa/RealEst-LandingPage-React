@@ -1,0 +1,82 @@
+@use '../config/vars' as *;
+
+
+
+header {
+  nav {
+ 
+    .blur1 {
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(11.6px);
+  }
+    .logo {
+      color: $color-orange;
+      &::after {
+        content: 'Agency';
+        color: $color-silver;
+      }
+    }
+  }
+}
+
+#home {
+  background-image: url('../../imgs/img-3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 700px; width: 100%;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+}
+.links {
+  .link {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0; height: 2px;
+      bottom: 0; left: 0;
+      background-color: $color-orange ;
+      transition: 300ms;
+    }
+    &:hover::before {
+      width: 100%;
+
+    }
+    &[data-active="active"] {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+}
+.mobile-nav {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.home-content {
+  background: white;
+  .container  {
+    transform: translate(-50%,-50%);
+  }
+}
+/* .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  background-color: #00000061;
+  width: 100%; height: 100%;
+} */
