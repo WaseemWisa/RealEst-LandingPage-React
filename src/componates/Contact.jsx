@@ -10,7 +10,7 @@ function Contact() {
           <div className='w-full flex items-center flex-col justify-between sm:flex-row gap-y-3 sm:gap-x-2'>
             <input type="email"  className='bg-white w-[85%] sm:w-[220px] h-[45px] pl-2' name="email" id="email"  placeholder='Email' />
             <input type="mobile" className='bg-white w-[85%] sm:w-[220px] h-[45px] pl-2'  name="mobile" id="mobile"  placeholder='Phone'/>
-            <button type="submit" className='bg-orange w-[85%] sm:w-[220px] h-[45px] pl-2'>Send</button>
+            <button type="submit" className='bg-orange-500	 w-[85%] sm:w-[220px] h-[45px] pl-2'>Send</button>
           </div>
           <div className="send flex flex-row justify-center  sm:justify-end w-[85%] sm:w-full sm:pr-[40px]">
             <input type="checkbox" name="offers" id="offers" className='mr-2'/>

@@ -23,7 +23,7 @@ function Trending() {
     <div id="sales" className="sales">
       <SecHeading/>
       <div className="container flex flex-col items-center">
-        <ul className="menuTabs my-10 flex justify-center w-fit gap-x-7 cursor-pointer">
+        <ul className="menuTabs my-10 flex justify-center w-fit gap-x-[0.90rem] sm:gap-x-7 cursor-pointer">
           <li className={`tab ${activeLink == 'All' ? 'active' : ''}`} onClick={() => {setMenuItem(myData)
             setActiveLink('All')
           }}>All</li>

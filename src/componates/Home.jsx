@@ -66,15 +66,15 @@ function Home() {
       </nav>
     </header>
     <div
-        className={`mobile-nav fixed w-full top-[81px] h-fit z-50 bg-[#06000099] border-b	 border-b-silver border-solid	${
+        className={`mobile-nav fixed w-full top-[81px] h-fit z-50 bg-[#06000099] border-b	 border-b-silver border-solid px-7	${
           showMobile ? "block" : "hidden"
         }`}
       >
-        <ul className="links">
+        <ul className="links ">
           {navLinks.map((link) => {
             return (
               <li
-                className={`link flex items-center h-full p-3 `}
+                className={`link flex items-center h-full p-3 pl-0`}
                 data-active={activeLink == link ? "active" : ""}
               >
                 <a
