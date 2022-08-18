@@ -10,13 +10,13 @@
   --color-white: #fff;
 }
 
-
- 
-.conainer {
-  padding-right: 30px !important; padding-left: 30px !important;
-  margin-right: auto !important;
-  margin-left: auto !important;
+@layer components {
+  .container {
+    @apply px-[35px] mx-auto
+  }
+  
 }
+
 
 .active {
   border-bottom: 1px solid orange !important;

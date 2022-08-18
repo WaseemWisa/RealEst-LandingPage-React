@@ -27,6 +27,7 @@ function Home() {
   return (
     <>
     <header>
+      {/* jj */}
     <nav className={`nav ${scrollNavBar ? 'fixed	 top-0	left-0' : 'absolute'}   flex justify-between items-center flex-nowrap  h-20 px-7 w-full border-b	 border-b-silver border-solid	z-50	`}>
         <div className={scrollNavBar ? 'blur1' : 'hidden'}></div>
         <a href="#" className="logo capitalize font-medium">
@@ -60,7 +61,7 @@ function Home() {
           }}
         >
           {" "}
-          <FiMenu />{" "}
+          <FiMenu/>{" "}
         </button>
       </nav>
     </header>
