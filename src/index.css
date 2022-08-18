@@ -11,18 +11,15 @@
 }
 
 
-@layer components {
-  .container {
-    @apply px-[30px] mx-[auto];
-  }
-  .active {
-    @apply border-solid	 border-b border-b-orange pb-2 px-3
-  }
-}
  
+.conainer {
+  padding-right: 30px !important; padding-left: 30px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
 
-@layer utilities {
-
+.active {
+  border-bottom: 1px solid orange !important;
 }
   .swiper-button-prev,.swiper-button-next {
     color: #f48c06 !important;
