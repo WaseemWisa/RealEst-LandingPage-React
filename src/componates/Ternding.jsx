@@ -20,7 +20,7 @@ function Trending() {
   }
 
   return (
-    <div id="sales" className="sales">
+    <div id="ternding" className="ternding">
       <SecHeading/>
       <div className="container flex flex-col items-center">
         <ul className="menuTabs my-10 flex justify-center w-fit gap-x-[0.90rem] sm:gap-x-7 cursor-pointer">
@@ -57,7 +57,7 @@ function Trending() {
             })
           }
         </div>
-        <button className="text-white bg-orange px-[30px] py-[15px] my-10">learn More</button>
+        <button className="text-white bg-orange-500 px-[30px] py-[15px] my-10">learn More</button>
       </div>
    </div>
   )

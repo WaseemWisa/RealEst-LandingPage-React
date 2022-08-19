@@ -11,7 +11,7 @@ function Features() {
     <>
       <div id="features" className="features">
           <SecHeading/>
-        <div className="container md:container  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="container   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="box min-w-[80px]  flex flex-col flex-1 items-center p-2">
               <span className="icon mb-2 text-[#f48c06] text-[3.4rem]">
                 <AiFillHome />

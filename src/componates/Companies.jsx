@@ -6,9 +6,9 @@ import img4 from '../imgs/logo-microsoft.png'
 import img5 from '../imgs/logo-vector-graphics.png'
 import SecHeading from './SecHeading'
 
-function Compans() {
+function Companies() {
   return (
-    <div id="compans" className="compans">
+    <div id="companies" className="companies">
       <SecHeading/>
       <div className="container md:container grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-12 my-[100px]">
         <div className="img flex justify-center"><img src={img1} className="h-[45px]" alt="/" /></div>
@@ -24,4 +24,4 @@ function Compans() {
   )
 }
 
-export default Compans
+export default Companies

@@ -3,7 +3,7 @@ import './scss/main.scss';
 import Home from './componates/Home';
 import Features from './componates/Features';
 import Blog from './componates/Blog';
-import Compans from './componates/compans';
+import Companies from './componates/Companies';
 import Contact from './componates/Contact';
 import Trending from './componates/Ternding';
 import Testimonial from './componates/Testimonial';
@@ -16,7 +16,7 @@ function App() {
       <Home/>
       <Features/>
       <Blog/>
-      <Compans/>
+      <Companies/>
       <Contact/>
       <Trending/>
       <Testimonial/>

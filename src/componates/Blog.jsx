@@ -13,7 +13,7 @@ function Blog() {
   return (
    <div id="blog" className="blog">
     <SecHeading/>
-    <div className="container md:container  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+    <div className="container   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
       <div className={imgBox}>
         <div className={imgHolder}>
           <img className={imgStyle} src={img1} alt="" />

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { FiMenu } from "react-icons/fi";
 
 function Home() {
-  const navLinks = ["home", "features", " articales", "sales", " contact"];
+  const navLinks = ["home", "features", "companies", "contact", "ternding" , "testimonial" , "info"];
 
   const [activeLink, setActiveLink] = useState("");
   const [activeLinkMobile, setActiveLinkMobile] = useState("");
