@@ -32,7 +32,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center text-white relative py-4 border-t-solid border-t-neutral-400	border-t"> 
-        <span>Disgned by: <a href="https://www.behance.net/gallery/104617791/Landing-Page-for-real-estate-agency">Daria</a></span>
+        <span>Designed by: <a href="https://www.behance.net/gallery/104617791/Landing-Page-for-real-estate-agency">Daria</a></span>
          <span className='mx-3'>|</span>
         <span>Coding by: <a href="https://github.com/WaseemWisa">Waseem</a> </span>
        </div>

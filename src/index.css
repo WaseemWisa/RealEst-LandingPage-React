@@ -10,6 +10,12 @@
   --color-white: #fff;
 }
 
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+}
+
 @layer components {
   .container {
     @apply px-[35px] mx-auto
